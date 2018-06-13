@@ -3,7 +3,7 @@
 const fs = require('fs');
 const { JSDOM } = require('jsdom');
 
-let file = fs.readFileSync(__dirname + '/' + process.argv[2]).toString('utf8');
+let file = fs.readFileSync(__dirname + '/' + process.argv[1]).toString('utf8');
 let jsdom = new JSDOM(file);
 
 const { window } = jsdom;
