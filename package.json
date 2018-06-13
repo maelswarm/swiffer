@@ -1,5 +1,5 @@
 {
-  "name": "swiffer",
+  "name": "swiffer-css",
   "version": "0.1.0",
   "description": "Clean your dirty CSS",
   "main": "swiffer.js",
