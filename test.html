@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <style>
+        h1 {
+            color: white;
+        }
+
+        .a {
+            display: none;
+        }
+
+        .b {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="b">Hello</div>
+    <script>/*
+        [].slice.call(document.querySelectorAll('style, link[rel=stylesheet]')).forEach(stylesheet => {
+            try {
+                stylesheet.sheet.rules
+                if (stylesheet.sheet.rules[0].selectorText) {
+                    [].slice.call(stylesheet.sheet.rules).forEach(rule => {
+                        if (document.querySelector(rule.selectorText) !== undefined) {
+                            console.log(rule.selectorText + ' is not being used!')
+                        }
+                    });
+                }
+            } catch {
+                console.log('Something went wrong...')
+            }
+        });*/
+    </script>
+</body>
+
+</html>
