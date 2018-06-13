@@ -10,6 +10,9 @@
     "type": "git",
     "url": "github.com/roecrew/swiffer"
   },
+  "bin": {
+    "swiffer": "./swiffer.js"
+  },
   "keywords": [
     "CSS",
     "clean",
@@ -18,8 +21,6 @@
   "author": "roecrew",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1",
     "jsdom": "^11.11.0",
-    "optimist": "^0.6.1"
   }
 }
